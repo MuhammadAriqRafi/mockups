@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+// NAVBAR
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    nav {
+        padding: 2em 0;
+        background-color: none;
+    
+        ul {
+            display: flex;
+            justify-content: flex-end;
+
+            li {
+                list-style: none;
+            }
+
+            .nav-btn {
+                text-decoration: none;
+                color: white;
+                padding: 1em 2em;
+            }
+        }
+    }
+}
+
+.nav-scroll {
+    background-color: white;
+    box-shadow:
+        0 2.6px 13.2px rgba(0, 0, 0, 0.045),
+        0 21px 32px rgba(0, 0, 0, 0.11);
+}
+
+// COVER
+.cover-container {
+    height: 100vh;
+    background: url(goldbar.jpg);
+    background-size: cover;
+    z-index: -1;
+    
+    .cover {
+        height: 100%;
+        background-color: black;
+        opacity: 60%;
+        z-index: 0;
+        display: flex;
+        align-items: center;
+
+        .text {
+            padding-left: 3em;
+            height: 55%;
+            width: 70%;
+            z-index: 9;
+            display: flex;
+            align-items: center;
+
+            .text-wrapper {
+
+                h1, p {
+                    display: inline;
+                    color: white;
+                    display: inline-table;
+                }
+
+                h1 {
+                    font-size: 4.5em;
+                    text-transform: uppercase;
+                    line-height: 1.1em;
+                }
+
+                p {
+                    line-height: 1.5em;
+                    margin: 1.5em 0;
+                }
+
+                button {
+                    width: 12em;
+                    background-color: none;
+                    border-radius: none;
+
+                    .read-me {
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: bold;
+                        color: black;
+                        display: inline-table;
+                        height: 2.3em;
+                        line-height: 2.3em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// CONTENT
+
+section {
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    text-transform: uppercase;
+    font-weight: bold;
+}

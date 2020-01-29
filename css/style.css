@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header nav {
+  padding: 2em 0;
+  background-color: none;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul .nav-btn {
+  text-decoration: none;
+  color: white;
+  padding: 1em 2em;
+}
+
+.nav-scroll {
+  background-color: white;
+  -webkit-box-shadow: 0 2.6px 13.2px rgba(0, 0, 0, 0.045), 0 21px 32px rgba(0, 0, 0, 0.11);
+          box-shadow: 0 2.6px 13.2px rgba(0, 0, 0, 0.045), 0 21px 32px rgba(0, 0, 0, 0.11);
+}
+
+.cover-container {
+  height: 100vh;
+  background: url(goldbar.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+
+.cover-container .cover {
+  height: 100%;
+  background-color: black;
+  opacity: 60%;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cover-container .cover .text {
+  padding-left: 3em;
+  height: 55%;
+  width: 70%;
+  z-index: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cover-container .cover .text .text-wrapper h1, .cover-container .cover .text .text-wrapper p {
+  display: inline;
+  color: white;
+  display: inline-table;
+}
+
+.cover-container .cover .text .text-wrapper h1 {
+  font-size: 4.5em;
+  text-transform: uppercase;
+  line-height: 1.1em;
+}
+
+.cover-container .cover .text .text-wrapper p {
+  line-height: 1.5em;
+  margin: 1.5em 0;
+}
+
+.cover-container .cover .text .text-wrapper button {
+  width: 12em;
+  background-color: none;
+  border-radius: none;
+}
+
+.cover-container .cover .text .text-wrapper button .read-me {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: black;
+  display: inline-table;
+  height: 2.3em;
+  line-height: 2.3em;
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+  line-height: 100vh;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
