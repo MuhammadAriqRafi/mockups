@@ -3,7 +3,7 @@ const links = document.querySelectorAll('.nav-btn');
 const cover = document.querySelector('.cover-container');
 
 const options = {
-    rootMargin: "-200px 0px 0px 0px"
+    rootMargin: "-87px 0px 0px 0px"
 };
 
 const coverObserver = new IntersectionObserver(function (entries, coverObserver) {
